@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "email": "react-email dev",
+    "email": "npx react-email dev",
     "postinstall": "prisma generate && patch-package"
   },
   "dependencies": {
