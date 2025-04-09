@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🧠 AI Finance Platform
 
-## Getting Started
+An AI-powered, full-stack finance management platform built with **Next.js 15**, **Shadcn UI**, **Clerk Auth**, and **Prisma ORM**. The platform enables users to create and manage accounts, track transactions, generate insights, and receive budget alerts—all while leveraging automation, modern UI, and AI integrations like **Gemini API** and **receipt scanning**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- ✨ **User Authentication** using Clerk with secure session handling
+- 🧾 **AI Receipt Scanning** using Gemini API for intelligent data extraction
+- 🏦 **Account Management** with balance tracking, default accounts, and drawers
+- 💸 **Transaction Tracking** with sorting, filtering, and recurring logic
+- 📊 **Budget Management** with progress indicators and monthly alerts
+- 📩 **Email Notifications** with styled templates for alerts and reports
+- 📅 **Cron Jobs** to auto-check budget usage every 6 hours
+- 📉 **Dashboard Insights**: Income, Expenses, Net balance with graphs (Recharts)
+- 🔐 **Bot Protection**, Middleware, and API Rate Limiting with ArcJet
+- 🎯 **Responsive UI** using Tailwind CSS, Shadcn Components, and Animations
+- ☁️ **Deployment-ready** via Vercel with CI/CD pipelines
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
 
-## Learn More
+### 📦 Languages & Frameworks
 
-To learn more about Next.js, take a look at the following resources:
+- C, C++
+- JavaScript, TypeScript
+- HTML, Tailwind CSS
+- React.js
+- Next.js 15
+- Redux Toolkit
+- Object-Oriented Programming (OOP)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🔧 Back-end & Databases
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Node.js, Express.js
+- RESTful API Design
+- MongoDB (NoSQL)
+- Supabase (PostgreSQL)
+- Prisma ORM
 
-## Deploy on Vercel
+### ⚙️ Tools & Platforms
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Git, GitHub
+- Docker, Dockerized CI/CD
+- Vercel, Render
+- Debugging & Testing Utilities
+- ArcJet (Security & Rate Limiting)
+- Clerk (Auth)
+- Resend API (Email Services)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🧠 AI Integrations
+
+- **Gemini API**: For smart receipt scanning and monthly report generation
+- **Automatic Transaction Parsing**: Based on scanned data or user input
+- **Recurring Transactions**: Detected and updated intelligently
+
+---
+
+## 🧪 Development Highlights (Timestamps Summary)
+
+- **Authentication Setup**: Clerk integration, middleware, and protected routes
+- **UI Setup**: Tailwind, Shadcn, form components, and dashboard layout
+- **Database**: Prisma schema with User, Account, and Transaction models
+- **Transactions**: Filtering, pagination, type categorization, and sorting
+- **Budget Tracking**: Email alerts, cron jobs, and visual feedback
+- **AI Features**: Receipt parsing and transaction form auto-fill
+- **Emailing**: Styled monthly reports with budget summaries
+- **Deployment**: Live on Vercel with working server-side and client features
+
+---
+
+## 📷 Screenshots (Add Images)
+
+> _Add screenshots of the dashboard, receipt scanner, and budget section here for visual reference._
+
+---
+
+## 📁 Folder Structure
+
